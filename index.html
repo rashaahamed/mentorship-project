@@ -1,97 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>HomePage</title>
+        <title>Pick a Flick</title>
         <meta charset="utf-8"/>
         <meta name="viewport" content="initial-scale=1.0, user-scalable=yes"/>
-
-        <style>
-            *{
-                /* put the height at 140% */
-                line-height: 140%;
-            }
-
-            body {
-                /* have the background colour set to light blue  */
-                background-color: gray;
-                color: whitesmoke;
-                font-size: 25px;
-                margin: 5% 10%;
-            }
-            div p {
-                font-family: Helvetica neue, pingfang HK, sans-serif;
-                letter-spacing: 3px;
-                word-spacing: 6px;
-                margin-top: 0;
-                width: 100%;
-                border: 3px;
-            }
-            
-            h1.title {
-                display: flex;
-                position: relative;
-                 font-family: Helvetica neue, pingfang HK, sans-serif;
-                letter-spacing: 3px;
-                word-spacing: 6px;
-                margin-top: 0;
-                width: 100%;
-                border: 3px;
-                 
-             }
-            
-             a:link, a:visited{
-                background-color: lightblue;
-                color: purple;
-                padding: 15px 32px;
-                text-align: center;
-                text-decoration: none;
-                font-size: 16px;
-                margin: 4px 2px;
-                cursor: pointer;
-                border: 2px solid black;
-                font-size: 30px;
-                float: center;
-             }
-            
-            div.main {
-            
-            }
-            
-            p.intro {
-            
-            }
-            
-        </style>
-
+        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    </head>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="paf.jpg">
+            </div>
+        </div>
+    </header>
     <body>
-        
-        <!---- additional class name ---->
-        <h1 class="title" id="top">
-        <!---- additional class name ---->
-            Pick a Flick
-        </h1>
-        
-        <!---- additional class name ---->
-        <div class="main">
-             <!---- additional class name ---->
-            <p class="intro">
-                Animation became very popular on television since the 1950s,
-                when television sets started to become common in most developed countries.
-                Cartoons were mainly programmed for children,
-                on convenient time slots, and especially US youth spent many hours watching Saturday-morning cartoons.
-                Many classic cartoons found a new life on the small screen and by the end of the 1950s,
-                production of new animated cartoons started to shift
-            </p>
-            <a href="quiz.html" target="quiz">Start Quiz Here</a>
-            
-        </div>
-        
-        
-        <!--- additional ---->
-        <div class="container" id="movies">
-            
-            <!---- insert your code to display all the movies --->
-            
-        </div>
-        
+        <section class="main-content">
+            <h1>Can't find something to watch?</h1>
+            <p>Let Pick a Flick® find what you've been looking for. Take the survey below and enjoy the list of movies curated based on your liking and preferences.</p>
+            <div class="listgen-btn">
+                <p><a href="quiz.html">MOVIE LIST</a></p>
+            </div>
+        </section>
+        <section clas="about-us">
+            <div class="au-content">
+                <div id="au-text">
+                    <br>
+                    <h1>About Us</h1>
+                    <p>With Pick a Flick®, we make discovering movies easier for you. Our job is to ensure that you get the best possible list of movies that you are guaranteed to enjoy watching.
+                        Pick a Flick® is a group effort. It would not have been made possible without the help of Janet Adamana, Mahmoud Alzaibaq, and Hailey Nazar. 
+                    </p>
+                    <br> <br>
+                </div>
+            </div>     
+        </section>
     </body>
+    <footer>
+        <div class="logo-container">
+            <img src="paf.jpg">
+    </footer>
+</html>
